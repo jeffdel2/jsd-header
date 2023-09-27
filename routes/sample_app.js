@@ -12,8 +12,8 @@ const attributes = [
     {"id":"host","description":"Application Host"},
   ];
 
-const title = 'Sample Application';
-const description = 'This pseudo sample application is used for education purposes. It expects several different attributes';
+const title = 'Demo Application';
+const description = 'This application expects several different attributes in header format';
 const doc = 'https://www.okta.com';
 
 let urls = new Map([['/', 'Index'],['/admin', 'Admin Interface'],['/protected', 'Protected Page']]);
