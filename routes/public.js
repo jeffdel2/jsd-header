@@ -28,7 +28,6 @@ router.get(Array.from(urls.keys()),[
     title: title +' - '+ urls.get(req.url),
     description: description,
     req: req,
-    attributes: attributes,
     errors: { errors: errors.array() },
    }
   );
